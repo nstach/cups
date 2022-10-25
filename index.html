@@ -1,0 +1,79 @@
+<style>
+  .cup {
+    background: white;
+    border: 1px solid;
+    width: 70px;
+    height: 90px;
+    border-radius: 12px;
+  }
+  
+  .interior{
+    width: 70px;
+    height: 20px;
+    background: grey;
+    border-radius: 100px / 50px;
+    position: relative;
+    bottom: 60px;
+  }
+  
+  .handle{
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      box-shadow: 15px 15px 0 0;
+    	transform: rotate(135deg);
+    position: relative;
+    bottom: 50px;
+    }
+
+
+  .flag {
+    border: 1px solid;
+    background: linear-gradient(90deg, rgba(0, 1, 255, 1) 49%, rgba(255, 255, 255, 1) 49%, rgba(255, 255, 255, 1) 100%);
+    (255, 255, 255));
+    background-size: 30% 10%;
+    width: 50px;
+    height: 55px;
+    position: relative;
+      left: 18px;
+    	top: 20px;
+  }
+
+  .triangle {
+    background: red;
+    width: 50%;
+    height: 100%;
+    position: relative;
+    clip-path: polygon(100% 51%, 0 0, 0 100%);
+  }
+
+  .star {
+    background: white;
+    width: 80%;
+    height: 80%;
+    position: relative;
+    right: 3px;
+    top: 4px;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  }
+</style>
+<div class="cup">
+  <div class="flag">
+    <div class="triangle">
+      <div class="star"></div>
+    </div>
+  </div>
+  
+  <div class="interior"></div>
+
+<div class="handle"></div>
+</div>
+
+<div class="cup">
+  <div class="flag">
+    <div class="triangle">
+      <div class="star"></div>
+    </div>
+  </div>
+  <div class="handle"></div>
+</div>
